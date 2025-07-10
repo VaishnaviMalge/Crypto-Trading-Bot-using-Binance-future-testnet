@@ -36,7 +36,7 @@ if type_ml == "LIMIT":
         logging.info("Couldn't fetch current market price and exited the code.")
         exit()     
 
-    limit_price = input("Limit Price:").strip()                                          
+limit_price = input("Limit Price:").strip()                                          
 tif = input("Time in Force(GTC, FOK, IOC):").strip().upper()
 quantity = input("Order Size:").strip()
 
